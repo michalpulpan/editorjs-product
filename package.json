@@ -1,8 +1,8 @@
 {
   "name": "editorjs-product",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "EditorJs Input field",
-  "main": "./dist/bundle.js",
+  "main": "./dist/product.js",
   "scripts": {
     "test": "prettier --check . && tsc --noEmit",
     "build": "webpack --mode production",
