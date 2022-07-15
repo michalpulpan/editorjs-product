@@ -1,6 +1,6 @@
 {
   "name": "editorjs-product",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "EditorJs Input field",
   "main": "./dist/product.js",
   "scripts": {
