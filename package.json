@@ -1,0 +1,29 @@
+{
+  "name": "editorjs-style",
+  "version": "3.0.3",
+  "description": "Input field in Editor.js",
+  "keywords": [
+    "editor",
+    "tool",
+    "editor.js",
+    "editorjs"
+  ],
+  "repository": "https://github.com/michalpulpan/editorjs-product",
+  "license": "MIT",
+  "author": "Michal Pulpan <michal@michalpulpan.cz>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "@editorjs/editorjs": "^2.19.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
