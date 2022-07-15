@@ -1,4 +1,4 @@
-class ProductEditorJs {
+class Product {
   
   static get toolbox() {
     return {
