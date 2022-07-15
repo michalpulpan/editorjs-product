@@ -1,4 +1,5 @@
 class Product {
+  
   static get toolbox() {
     return {
       title: 'Product',

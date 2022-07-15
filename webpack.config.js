@@ -13,24 +13,24 @@ module.exports = {
           },
         ],
       },
-      {
-        test: /\.css$/,
-        use: [
-          { loader: 'style-loader', options: { attributes: { id: 'editorjs-product' } } },
-          { loader: 'css-loader' },
-        ],
-      },
-      {
-        test: /\.svg$/,
-        use: [
-          {
-            loader: 'svg-inline-loader',
-            options: {
-              removeSVGTagAttrs: false,
-            },
-          },
-        ],
-      },
+      // {
+        // test: /\.css$/,
+        // use: [
+          // { loader: 'style-loader', options: { attributes: { id: 'editorjs-tooltip' } } },
+          // { loader: 'css-loader' },
+        // ],
+      // },
+      // {
+        // test: /\.svg$/,
+        // use: [
+        //   {
+        //     loader: 'svg-inline-loader',
+        //     options: {
+        //       removeSVGTagAttrs: false,
+        //     },
+        //   },
+        // ],
+      // },
     ],
   },
   output: {
