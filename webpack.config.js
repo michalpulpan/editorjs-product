@@ -7,6 +7,14 @@ module.exports = {
     filename: 'bundle.js',
     library: 'Product',
     libraryExport: 'default',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
-};
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+}
